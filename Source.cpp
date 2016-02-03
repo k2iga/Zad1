@@ -2,32 +2,58 @@
 //"liczba_ciagu Three", gdy liczba jest podzielna przez 3
 //"liczba_ciagu Five", gdy liczba jest podzielna przez 5
 //"liczba_ciagu ThreeFive" gdy jest podzielna przez 3 i 5 jednoczesnie.
-//liczba_ciagu oznacza aktualnie badana liczbe.
+//liczba_ciagu oznacza aktualnie badana liczbe!!!
 
 //do tego trzeba wykorzystaæ operator modulo
 
 #include <iostream>
+using namespace std;
+
 int main()
 {
-	using namespace std;
 
-	int i;
 
-	for (i = 1; i <= 100; i = i + 1)
+	for (int i = 1; i <= 100; i++)
 	{
-		if (i % 3 == 0 && i % 5 == 0)
-			cout << "liczba_ciagu ThreeFive \n";
+
+		cout << i << "  ";
+
 		if (i % 3 == 0)
-			cout << "liczba_ciagu Three \n";
+			cout << "Three";
 
 		if (i % 5 == 0)
-			cout << "liczba_ciagu Five \n";
+			cout << "Five";
 
-		else
-			cout << i << "\n";
+		cout << endl;
+
 	}
 
 	cin.get();
-
+	return 0;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
