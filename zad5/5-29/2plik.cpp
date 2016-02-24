@@ -1,0 +1,17 @@
+// 5.29 Napisz program sk³adaj¹cy siê z funcji main i funkcji druga bêd¹cych w dwóch ró¿nych plikach.
+//Nastêpnie napisz definicjê funkcji inline o nazwie "wieksza" , która przyjmuje dwa argumenty typu int, 
+//a jako rezultat zwraca wiekszy z nich. Wywo³ania tej funkcji maj¹ byæ byæ zarówno z funkcji main,
+//jak i z funkcji druga.
+//Zrób to na dwa sposoby:
+//1.u¿ywaj¹c pliku nag³ówkowego w³¹czanego dyrektyw¹ #include,
+//2. bez u¿ycia pliku nag³ówkowego
+
+#include<iostream>
+
+using namespace std;
+#include "Header.h"
+
+void druga(void)
+{
+	cout << wieksza(3, 47) << endl;
+}
