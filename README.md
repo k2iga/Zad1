@@ -1,3 +1,3 @@
 # Zad1
-Rozwiązania zadań z programowania m.in. z Symfonii, J.Grębosza
+Rozwiązania zadań z programowania w C++ m.in. z Symfonii, J.Grębosza
 
