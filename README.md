@@ -1,3 +1,3 @@
 # Zad1
-Przedstawiam pomysl rozwiazania zadania 
+Rozwiązania zadań z programowania m.in. z Symfonii, J.Grębosza
 
